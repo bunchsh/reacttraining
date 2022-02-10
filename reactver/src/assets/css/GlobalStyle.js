@@ -6,6 +6,15 @@ const GlobalStyle = createGlobalStyle `
     font-family: "나눔고딕", "맑은고딕", "굴림", "Helvetica";
 }
 
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+hr {
+    display: none;
+}
+
 /** 추가내용: 웹 브라우저 기본 사이즈 정의 */
 html, body {
 	width: 100%;
@@ -56,6 +65,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 `;
 
 export default GlobalStyle;

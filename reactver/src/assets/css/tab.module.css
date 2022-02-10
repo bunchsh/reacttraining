@@ -5,6 +5,7 @@
     height: 40px;
     padding: 0 20px;
     background: url(../img/bg_tab.gif) repeat-x;
+    font-weight: bold;
 }
 
 /* tab > bt set > 개별항목
@@ -15,6 +16,7 @@
     text-align: center;
     color: #000;
     float: left;
+    font-weight: bold;
 }
 
 /* tab > float 해제

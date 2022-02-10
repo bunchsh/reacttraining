@@ -5,6 +5,8 @@ import GlobalStyle from "../assets/css/GlobalStyle"
 import InfoSub2Style from "../assets/css/Info2.module.css"
 import InfoTab from "../assets/css/tab.module.css"
 
+import Tab from "../sub/Tab"
+
 import img2 from '../assets/img/pic_ca1_img02.jpg'
 import img3 from '../assets/img/pic_ca1_img03.jpg'
 import img4 from '../assets/img/pic_ca1_img04.jpg'
@@ -17,14 +19,7 @@ const Info2 = () => {
   return (
     <div>
       <GlobalStyle />
-      <ul className={InfoTab.tabUl}>
-          <li className={InfoTab.tabLi}>
-              <NavLink className={InfoTab.tabLink} to="/info1">분양안내</NavLink>
-          </li>
-          <li className={InfoTab.tabLi}>
-              <NavLink className={InfoTab.tabLink} to="/info2">단지안내</NavLink>
-          </li>
-      </ul>
+      <Tab/>
       <div className={InfoSub2Style.content}>
             <GlobalStyle />
             <h2 className={InfoSub2Style.contentH2}>친환경 주거단지, 사람도 자연도 행복합니다.</h2>

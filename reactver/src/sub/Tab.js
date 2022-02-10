@@ -6,11 +6,13 @@ import GlobalStyle from "../assets/css/GlobalStyle"
 
 import TabStyle from "../assets/css/tab.module.css"
 
+import "../assets/css/active.css"
+
 const Tab = () => {
   return (
     <div>
+        <GlobalStyle />
         <div>
-            <GlobalStyle />
             <ul className={TabStyle.tabUl}>
                 <li className={TabStyle.tabLi}>
                     <NavLink className={`${TabStyle.tabLi}, ${TabStyle.tabLink}`} to="/info1">분양안내</NavLink>

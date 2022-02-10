@@ -1,0 +1,6 @@
+.active {
+    background: url(../img/bg_tab_left.gif) 10px no-repeat;
+    background: url(../img/bg_tab_left.gif) right 10px no-repeat;
+    color: #000;
+}
+
