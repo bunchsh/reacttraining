@@ -1,17 +1,20 @@
 import React from 'react';
 
-import {Link} from "react-router-dom";
-
-
+// css파일
 import GlobalStyle from "../assets/css/GlobalStyle"
 import InfoStyle from "../assets/css/info1.module.css";
 
+//컴포넌트
 import Tab from "../sub/Tab"
 
+// Props
+import Info1Th from "../components/Info1Th"
 
+// 이미지 파일
 import pic_ca1_img01 from '../assets/img/pic_ca1_img01.jpg';
 import ico_a from '../assets/img/ico_a.gif';
 import ico_o from '../assets/img/ico_o.gif';
+
 
 /**
  * 외부 CSS 파일을 참조하는 컴포넌트
@@ -38,9 +41,9 @@ const Info1 = () => {
                     <caption className={InfoStyle.contentCaption}>주택공급현황</caption>
                     <thead>
                     <tr>
-                        <th className={InfoStyle.contentTh} scope="col">면적</th>
-                        <th className={InfoStyle.contentTh} scope="col">구분</th>
-                        <th className={InfoStyle.contentTh} scope="col">일반분양</th>
+                        <Info1Th scope="col" col="" msg="면적"></Info1Th>
+                        <Info1Th scope="col" col="" msg="구분"></Info1Th>
+                        <Info1Th scope="col" col="" msg="일반분양"></Info1Th>
                     </tr>
                     </thead>
                     <tbody>
@@ -57,8 +60,8 @@ const Info1 = () => {
                     </tbody>
                     <tfoot>
                     <tr>
-                        <th className={InfoStyle.contentTh} colSpan='2'>합계</th>
-                        <th className={InfoStyle.contentTh}>1,234세대</th>
+                        <Info1Th scope="" col="2" msg="합계"></Info1Th>
+                        <Info1Th scope="" col="" msg="1,234세대"></Info1Th>
                     </tr>
                     </tfoot>
                 </table>

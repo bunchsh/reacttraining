@@ -1,9 +1,5 @@
 import React from 'react';
 
-import {Route, Link, Routes} from 'react-router-dom';
-
-import Info1 from "./Info1";
-
 import GlobalStyle from "../assets/css/GlobalStyle"
 import indexStyle from "../assets/css/index.module.css"
 

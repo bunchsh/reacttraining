@@ -1,12 +1,16 @@
 import React from 'react';
-import {NavLink, Link} from "react-router-dom";
 
+// css파일
 import GlobalStyle from "../assets/css/GlobalStyle"
 import InfoSub2Style from "../assets/css/Info2.module.css"
-import InfoTab from "../assets/css/tab.module.css"
 
+// 컴포넌트
 import Tab from "../sub/Tab"
 
+// Props
+import Info2Item from '../components/Info2Item'
+
+// 이미지 파일
 import img2 from '../assets/img/pic_ca1_img02.jpg'
 import img3 from '../assets/img/pic_ca1_img03.jpg'
 import img4 from '../assets/img/pic_ca1_img04.jpg'
@@ -14,7 +18,7 @@ import img5 from '../assets/img/pic_ca1_img05.jpg'
 import img6 from '../assets/img/pic_ca1_img06.jpg'
 import img7 from '../assets/img/pic_ca1_img07.jpg'
 
-import Info2Item from '../components/Info2Item'
+
 
 
 const Info2 = () => {

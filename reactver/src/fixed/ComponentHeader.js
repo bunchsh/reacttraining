@@ -1,9 +1,11 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
+// 이미지 파일
 import logo from '../assets/img/logo.png'
 import home from '../assets/img/home.jpg'
 
+// css모듈
 import HeaderStyle from '../assets/css/header.module.css';
 
 const ComponentHeader = () => {
