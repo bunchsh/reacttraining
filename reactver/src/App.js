@@ -20,7 +20,7 @@ const App = () => {
       <Routes>
       <Route path="/" element={<Index/>}/>
       <Route path="/info1" element={<Info1/>}/>
-      <Route path="/info2/*" element={<Info2/>}/>
+      <Route path="/info2" element={<Info2/>}/>
       </Routes>
       
       <div className="footer"><ComponentFooter/></div>
