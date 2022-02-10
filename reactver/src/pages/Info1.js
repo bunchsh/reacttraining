@@ -6,6 +6,8 @@ import {Link} from "react-router-dom";
 import GlobalStyle from "../assets/css/GlobalStyle"
 import InfoStyle from "../assets/css/info1.module.css";
 
+import Tab from "../sub/Tab"
+
 
 import pic_ca1_img01 from '../assets/img/pic_ca1_img01.jpg';
 import ico_a from '../assets/img/ico_a.gif';
@@ -17,16 +19,8 @@ import ico_o from '../assets/img/ico_o.gif';
 const Info1 = () => {
     return (
         <div>
-          <GlobalStyle />
-            <nav className="tab">
-                <div className="active">
-                    <a className="tab" href='#!'>분양안내</a>
-                </div>
-                <div> 
-                    <a className="tab" href="#!">단지안내</a>
-                </div>
-            </nav>
-
+            <GlobalStyle />
+            <Tab/>
             <hr />
                 
             <div className={InfoStyle.content}>
