@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* 전체 공통
+--------------------------------------------- */
+* {
+    font-family: "나눔고딕", "맑은고딕", "굴림", "Helvetica";
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+hr {
+    display: none;
+}
+
+/* header bar
+--------------------------------------------- */
+#header {
+    background: url(../img/bg_header.gif) repeat-x;
+    height: 49px;
+    border-bottom: 1px solid #000;
+}
+
+/* header bar > logo
+--------------------------------------------- */
+#header h1 {
+    width: 71px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+
+/* header bar > Home bt
+--------------------------------------------- */
+#header span {
+    display: block;
+    width: 48px;
+    height: 26px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+/* footer
+--------------------------------------------- */
+#footer {
+    width: auto;
+    text-align: center;
+}
+
+/* footer > bt set
+--------------------------------------------- */
+#footer ul {
+    margin: 5px auto;
+}
+
+/* footer > bt set > 개별항목
+--------------------------------------------- */
+#footer ul li {
+    display: inline;
+    padding: 0 2px;
+}
+
+/* footer > copyright
+--------------------------------------------- */
+#footer address {
+    width: auto;
+    height: 35px;
+    background: #ccc;
+    font-size: 0.8em;
+    line-height: 35px;
+    color: #666;
+}
