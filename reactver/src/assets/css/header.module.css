@@ -44,5 +44,6 @@
     top: 12px;
 }
 
-
-
+.headerIndexSpan {
+    display: none;
+}
