@@ -8,12 +8,12 @@ import ComponentFooter from './fixed/ComponentFooter';
 const App = () => {
   return (
     <div>
-      <h1><ComponentHeader/></h1>
-      <h1><ComponentFooter/></h1>
+      <div className="header"><ComponentHeader/></div>
+      <div className="footer"><ComponentFooter/></div>
       
     <Routes>
-      <Route path='/header' element={<ComponentHeader/>}/>
-      <Route path='/footer' element={<ComponentFooter/>}/>
+      <Route element={<ComponentHeader/>}/>
+      <Route element={<ComponentFooter/>}/>
     </Routes>
     </div>
   );

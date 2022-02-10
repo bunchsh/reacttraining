@@ -21,7 +21,7 @@ const ComponentFooter = () => {
         </ul>
         <address className={footerStyle.footerAddress}>
             Copyright 2014. HANGANG VILLAGE
-        </address>
+        </address> 
     </div>
   );
 }
