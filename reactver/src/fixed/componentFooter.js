@@ -1,5 +1,5 @@
 import React from 'react';
-// import {Route, Link, Routes} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import call from '../assets/img/qlink_call.gif'
 import map from '../assets/img/qlink_map.gif'
@@ -11,12 +11,12 @@ const ComponentFooter = () => {
     <div className={footerStyle.footer}>
         <ul className={footerStyle.footerUl}>
             <li className={footerStyle.footerLi}>
-                <a href="tel:12345678">
-                    <img src={call} alt="분양상담전화" /></a>
+                <Link to="">
+                    <img src={call} alt="분양상담전화" /></Link>
             </li>
             <li className={footerStyle.footerLi}>
-                <a href="map">
-                <img src={map} alt="찾아오시는 길" /></a>
+                <Link to="">
+                <img src={map} alt="찾아오시는 길" /></Link>
             </li>
         </ul>
         <address className={footerStyle.footerAddress}>
