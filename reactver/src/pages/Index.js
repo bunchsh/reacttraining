@@ -1,26 +1,36 @@
 import React from 'react';
-import {Route, Link, Routes} from "react-router-dom";
 
-import ComponentHeader from '../fixed/ComponentHeader';
-import ComponentFooter from '../fixed/ComponentFooter';
-import IndexStyle from '../assets/css/index.module.css';
+import {Route, Link, Routes} from 'react-router-dom';
 
-const Index = () => {
+import Info1 from "./Info1";
+
+import GlobalStyle from "../assets/css/GlobalStyle"
+import indexStyle from "../assets/css/index.module.css"
+
+
+const Main = () => {
   return (
-   <div>
-       <div><ComponentHeader /></div>
-       <div className={IndexStyle.content}>
-        <h2 className={IndexStyle.contentH2}>편안한 보금자리를 약속드립니다.</h2>
-            <ul className={IndexStyle.contentUl}>
-                <li className={IndexStyle.contentLi}><Link to="/info1" className={[IndexStyle.contentLink, IndexStyle.contentLink1].join(' ')}>분양안내</Link></li>
-                <li className={IndexStyle.contentLi}><Link to="" className={[IndexStyle.contentLink, IndexStyle.contentLink2].join(' ')}>프리미엄</Link></li>
-                <li className={IndexStyle.contentLi}><Link to="" className={[IndexStyle.contentLink, IndexStyle.contentLink3].join(' ')}>단지안내</Link></li>
-                <li className={IndexStyle.contentLi}><Link to="" className={[IndexStyle.contentLink, IndexStyle.contentLink4].join(' ')}>인테리어</Link></li>
+    <div>
+        <GlobalStyle />
+        <div className={indexStyle.content}>
+            <h2 className={indexStyle.contentH2}>편안한 보금자리를 약속드립니다. 한강빌리지</h2>
+            <ul className={indexStyle.contentUl}>
+                <li className={indexStyle.contentLi}>
+                    <a href="/info1" className={`${indexStyle.contentA} ${indexStyle.contentIcon1}`}>분양안내</a>
+                </li>
+                <li className={indexStyle.contentLi}>
+                    <Link to="" className={`${indexStyle.contentA} ${indexStyle.contentIcon2}`}>프리미엄</Link>
+                </li>
+                <li className={indexStyle.contentLi}>
+                    <Link to="" className={`${indexStyle.contentA} ${indexStyle.contentIcon3}`}>단지안내</Link>
+                </li>
+                <li className={indexStyle.contentLi}>
+                    <Link to="" className={`${indexStyle.contentA} ${indexStyle.contentIcon4}`}>인테리어</Link>
+                </li>
             </ul>
-       </div>
-       <div><ComponentFooter /></div>
-   </div>
+        </div>
+    </div>
   );
 }
 
-export default Index;
+export default Main;
