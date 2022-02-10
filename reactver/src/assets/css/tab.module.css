@@ -37,17 +37,3 @@
     padding-top: 17px;
     color: #fff;
 }
-
-/* tab > bt set > 개별항목 > menu
--------------------------------------- */
-.tabLi.active {
-    background: url(../img/bg_tab_left.gif) left 10px no-repeat;
-
-}
-
-/* tab > bt set > 개별항목 > menu > link
--------------------------------------- */
-.tabLi.activeLink {
-    background: url(../img/bg_tab_right.gif) right 10px no-repeat;
-    color: #000;
-}
