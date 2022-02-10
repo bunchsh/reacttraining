@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+#header span{
+    display: none;
+}
+
+.content{
+    background: url(../img/bg_body.gif) repeat-x;
+}
+
+.contentH2{
+    width: auto;
+    height: 270px;
+    background: url(../img/bg_visual.jpg) center top no-repeat;
+    text-indent: -10000px;
+}
+
+.contentUl{
+    text-align: center;
+}
+
+.contentLi{
+    display: inline-block;
+    padding: 20px 2px 0px 2px;
+
+}
+
+.contentA {
+    display: block;
+    width: 65px;
+    height: 90px;
+    margin: auto;
+    text-indent: -10000px;
+    overflow: hidden;
+    background: url(../img/lnb.png) no-repeat;
+    cursor: pointer;
+}
+
+.contentIcon1 {
+    background-position: 0px 0;
+}
+.contentIcon2 {
+    background-position: -66px 0;
+}
+.contentIcon3 {
+    background-position: -136px 0;
+}
+.contentIcon4 {
+    background-position: -206px 0;
+}
