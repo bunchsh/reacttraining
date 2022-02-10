@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GlobalStyle from "../assets/css/GlobalStyle"
+import SpanStyle from "../assets/css/SpanStyle"
 import indexStyle from "../assets/css/index.module.css"
 
 import IndexItem from '../components/IndexItem.js'
@@ -8,7 +8,7 @@ import IndexItem from '../components/IndexItem.js'
 const Main = () => {
   return (
     <div>
-        <GlobalStyle />
+        <SpanStyle />
         <div className={indexStyle.content}>
             <h2 className={indexStyle.contentH2}>편안한 보금자리를 약속드립니다. 한강빌리지</h2>
             <ul className={indexStyle.contentUl}>
