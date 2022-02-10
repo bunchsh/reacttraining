@@ -3,6 +3,7 @@ import {createGlobalStyle} from "styled-components";
 const GlobalStyle = createGlobalStyle `
 * {
 	-webkit-text-size-adjust: none;
+    font-family: "나눔고딕", "맑은고딕", "굴림", "Helvetica";
 }
 
 /** 추가내용: 웹 브라우저 기본 사이즈 정의 */
