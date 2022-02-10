@@ -1,0 +1,44 @@
+* {
+    font-family: "나눔고딕", "맑은고딕", "굴림", "Helvetica";
+}
+
+.a {
+    color: #222;
+    text-decoration: none;
+}
+
+.hr {
+    display: none;
+}
+
+/* footer
+--------------------------------------------- */
+.footer {
+    width: auto;
+    text-align: center;
+}
+
+/* footer > bt set
+--------------------------------------------- */
+.footerUl {
+    list-style: none;
+    margin: 5px auto;
+}
+
+/* footer > bt set > 개별항목
+--------------------------------------------- */
+.footerLi {
+    display: inline;
+    padding: 0 2px;
+}
+
+/* footer > copyright
+--------------------------------------------- */
+.footerAddress {
+    width: auto;
+    height: 35px;
+    background: #ccc;
+    font-size: 0.8em;
+    line-height: 35px;
+    color: #666;
+}
