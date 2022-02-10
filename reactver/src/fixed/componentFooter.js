@@ -1,11 +1,11 @@
 import React from 'react';
 
-const componentFooter = () => {
+const ComponentFooter = () => {
   return (
-    <div>
+    <div className="footer">
         
     </div>
   );
 }
 
-export default componentFooter;
+export default ComponentFooter;
