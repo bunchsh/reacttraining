@@ -14,6 +14,8 @@ import img5 from '../assets/img/pic_ca1_img05.jpg'
 import img6 from '../assets/img/pic_ca1_img06.jpg'
 import img7 from '../assets/img/pic_ca1_img07.jpg'
 
+import Item from '../components/Item'
+
 
 const Info2 = () => {
   return (
@@ -24,24 +26,12 @@ const Info2 = () => {
             <GlobalStyle />
             <h2 className={InfoSub2Style.contentH2}>친환경 주거단지, 사람도 자연도 행복합니다.</h2>
             <ul className={InfoSub2Style.contentUl}>
-                <li className={InfoSub2Style.contentLi}>
-                    <Link className={InfoSub2Style.contentLink} to=""><img className={InfoSub2Style.contentImg} src={img2} alt="조감도1" /></Link>
-                </li>
-                <li className={InfoSub2Style.contentLi}>
-                    <Link className={InfoSub2Style.contentLink} to=""><img className={InfoSub2Style.contentImg} src={img3}  alt="조감도2" /></Link>
-                </li>
-                <li className={InfoSub2Style.contentLi}>
-                    <Link className={InfoSub2Style.contentLink} to=""><img className={InfoSub2Style.contentImg} src={img4} alt="조감도3" /></Link>
-                </li>
-                <li className={InfoSub2Style.contentLi}>
-                    <Link className={InfoSub2Style.contentLink} to=""><img className={InfoSub2Style.contentImg} src={img5} alt="조감도4" /></Link>
-                </li>
-                <li className={InfoSub2Style.contentLi}>
-                    <Link className={InfoSub2Style.contentLink} to=""><img className={InfoSub2Style.contentImg} src={img6} alt="조감도5" /></Link>
-                </li>
-                <li className={InfoSub2Style.contentLi}>
-                    <Link className={InfoSub2Style.contentLink} to=""><img className={InfoSub2Style.contentImg} src={img7} alt="조감도6" /></Link>
-                </li>
+                <Item img={img2} alt="조감도1"></Item>
+                <Item img={img3} alt="조감도2"></Item>
+                <Item img={img4} alt="조감도3"></Item>
+                <Item img={img5} alt="조감도4"></Item>
+                <Item img={img6} alt="조감도5"></Item>
+                <Item img={img7} alt="조감도6"></Item>
             </ul>
         </div>
     </div>
