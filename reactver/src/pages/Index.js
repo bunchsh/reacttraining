@@ -5,6 +5,8 @@ import indexStyle from "../assets/css/index.module.css"
 
 import IndexItem from '../components/IndexItem.js'
 
+
+
 const Index = () => {
   return (
     <div>

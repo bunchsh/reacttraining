@@ -2,7 +2,7 @@ import React from 'react';
 
 import {Route, Routes} from 'react-router-dom';
 
-import GlobalStyle from "../src/assets/css/GlobalStyle"
+import '../src/assets/css/reset.css'
 
 import ComponentHeader from './fixed/ComponentHeader';
 import ComponentFooter from './fixed/ComponentFooter';
@@ -14,7 +14,6 @@ import Info2 from './pages/Info2';
 const App = () => {
   return (
     <div>
-      <GlobalStyle />
       <div className="header"><ComponentHeader/></div>
       
       <Routes>
