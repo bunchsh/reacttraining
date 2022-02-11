@@ -24,10 +24,8 @@ import img7 from '../assets/img/pic_ca1_img07.jpg'
 const Info2 = () => {
   return (
     <div>
-      <GlobalStyle />
       <Tab/>
       <div className={InfoSub2Style.content}>
-            <GlobalStyle />
             <h2 className={InfoSub2Style.contentH2}>친환경 주거단지, 사람도 자연도 행복합니다.</h2>
             <ul className={InfoSub2Style.contentUl}>
                 <Info2Item img={img2} alt="조감도1"></Info2Item>

@@ -22,7 +22,6 @@ import ico_o from '../assets/img/ico_o.gif';
 const Info1 = () => {
     return (
         <div>
-            <GlobalStyle />
             <Tab/>
             <hr />
                 
