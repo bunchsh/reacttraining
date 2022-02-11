@@ -6,8 +6,7 @@ import indexStyle from "../assets/css/index.module.css"
 import IndexItem from '../components/IndexItem.js'
 
 
-
-const Index = () => {
+const Main = () => {
   return (
     <div>
         <SpanStyle />
@@ -24,4 +23,4 @@ const Index = () => {
   );
 }
 
-export default Index;
+export default Main;
