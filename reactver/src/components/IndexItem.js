@@ -7,10 +7,10 @@ import indexStyle from "../assets/css/index.module.css"
 
 
 const IndexItem = ({num, link, msg}) => {
-    
+
     return (
             <li className={indexStyle.contentLi}>
-                <Link to={link} className={[indexStyle.contentA, {num}.num].join(' ')}>{msg}</Link>
+                <Link to={link} className={[indexStyle.contentA, num].join(' ')}>{msg}</Link>
             </li>
     );
 };
