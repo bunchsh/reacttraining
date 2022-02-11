@@ -1,7 +1,6 @@
 import React from 'react';
 
 // css파일
-import GlobalStyle from "../assets/css/GlobalStyle"
 import InfoSub2Style from "../assets/css/Info2.module.css"
 
 // 컴포넌트
