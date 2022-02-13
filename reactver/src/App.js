@@ -17,7 +17,7 @@ const App = () => {
       <div className="header"><ComponentHeader/></div>
       
       <Routes>
-      <Route path="/" element={<Index/>}/>
+      <Route path="/" element={<Index/>} exact={true}/>
       <Route path="/info1" element={<Info1/>}/>
       <Route path="/info2" element={<Info2/>}/>
       </Routes>
