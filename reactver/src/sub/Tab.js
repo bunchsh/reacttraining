@@ -1,9 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 
-import GlobalStyle from "../assets/css/GlobalStyle"
-
-
 import TabStyle from "../assets/css/tab.module.css"
 
 import "../assets/css/active.css"
@@ -11,7 +8,6 @@ import "../assets/css/active.css"
 const Tab = () => {
   return (
     <div>
-        <GlobalStyle />
         <div>
             <ul className={TabStyle.tabUl}>
                 <li className={TabStyle.tabLi}>
